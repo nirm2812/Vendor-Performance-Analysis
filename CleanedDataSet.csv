@@ -1,0 +1,778 @@
+Column1,Vendor_Name,Order Year,Item_Category,Order_Status,Quantity,Unit_Price,Negotiated_Price,Defective_Units,Compliance,Status_Rate,Total Spend,Savings,Defective_Rate,Comp_rate,Negot_Rate
+Vendor_01,Alpha_Inc,2023,Office Supplies,Cancelled,1176,20.13,17.81,24,Yes,9%,20944.56,2728.32,2%,94%,12%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1509,39.32,37.34,235,Yes,70%,56346.06,2987.82,16%,61%,5%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,910,95.51,92.26,41,Yes,72%,83956.6,2957.5,5%,86%,3%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,1344,99.85,95.52,112,Yes,71%,128378.88,5819.52,8%,24%,4%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1180,64.07,60.53,171,No,70%,71425.4,4177.2,14%,39%,6%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1145,69.21,63.57,39,Yes,72%,72787.65,6457.8,3%,98%,8%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1774,51.37,47.82,96,No,72%,84832.68,6297.7,5%,14%,7%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1094,36.93,32.78,22,Yes,76%,35861.32,4540.1,2%,94%,11%
+Vendor_05,Gamma_Co,2023,Raw Materials,Partially Delivered,1688,43.93,39.89,89,Yes,13%,67334.32,6819.52,5%,86%,9%
+Vendor_05,Gamma_Co,2023,Raw Materials,Pending,171,76.87,70.2,8,Yes,11%,12004.2,1140.57,5%,86%,9%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,5000,78.49,73.68,18,Yes,72%,368400,24050,0%,98%,6%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,5000,88.96,86.58,115,Yes,71%,432900,11900,2%,76%,3%
+Vendor_02,Beta_Supplies,2023,Electronics,Pending,5000,86.74,74.86,51,Yes,12%,374300,59400,1%,76%,14%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,5000,18.3,16.88,105,Yes,71%,84400,7100,2%,76%,8%
+Vendor_03,Delta_Logistics,2022,Electronics,Pending,5000,54.5,48.45,22,Yes,10%,242250,30250,0%,61%,11%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,5000,15.41,15.12,105,Yes,71%,75600,1450,2%,76%,2%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1173,61.54,55.49,172,No,70%,65089.77,7096.65,15%,39%,10%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,921,51.48,50.61,33,Yes,72%,46611.81,801.27,4%,98%,2%
+Vendor_05,Gamma_Co,2023,Raw Materials,Partially Delivered,1737,97.53,87.37,79,Yes,13%,151761.69,17647.92,5%,86%,10%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,180,45.74,38.89,155,No,70%,7000.2,1233,86%,39%,15%
+Vendor_04,Epsilon_Group,2022,Electronics,Cancelled,1735,20.54,19.69,49,Yes,8%,34162.15,1474.75,3%,98%,4%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1382,24.93,23.75,155,Yes,70%,32822.5,1630.76,11%,61%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,819,80.89,77.03,29,Yes,72%,63087.57,3161.34,4%,98%,5%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Partially Delivered,393,72.53,66.31,42,No,8%,26059.83,2444.46,11%,24%,9%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1565,21.3,20.09,161,Yes,71%,31440.85,1893.65,10%,76%,6%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1487,19.15,17.24,33,Yes,72%,25635.88,2840.17,2%,98%,10%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,855,78.2,67.16,17,Yes,76%,57421.8,9439.2,2%,94%,14%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,435,17.13,15.84,8,Yes,72%,6890.4,561.15,2%,98%,8%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1265,90.26,79.47,187,Yes,70%,100529.55,13649.35,15%,61%,12%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1005,80.55,73.31,30,Yes,72%,73676.55,7276.2,3%,98%,9%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,326,18.1,15.92,55,No,72%,5189.92,710.68,17%,14%,12%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1234,17.64,15.66,26,Yes,76%,19324.44,2443.32,2%,94%,11%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,509,101.27,97.82,19,Yes,72%,49790.38,1756.05,4%,98%,3%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1387,48.71,43.71,27,Yes,76%,60625.77,6935,2%,94%,10%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,71,46.39,43.18,0,Yes,76%,3065.78,227.91,0%,94%,7%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,302,87.73,81.52,9,Yes,72%,24619.04,1875.42,3%,98%,7%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Pending,797,99.54,91.37,18,Yes,11%,72821.89,6511.49,2%,98%,8%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,906,101.21,90.9,94,Yes,12%,82355.4,9340.86,10%,76%,10%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1634,80.53,76.15,50,Yes,72%,124429.1,7156.92,3%,98%,5%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,524,46.28,39.65,14,Yes,72%,20776.6,3474.12,3%,98%,14%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,1132,17.78,15.36,96,Yes,71%,17387.52,2739.44,8%,76%,14%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,560,81.14,77.87,34,No,71%,43607.2,1831.2,6%,24%,4%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,1755,63.87,58.4,85,Yes,72%,102492,9599.85,5%,86%,9%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1549,48.9,42.42,48,Yes,72%,65708.58,10037.52,3%,98%,13%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,749,97.07,94.16,123,Yes,70%,70525.84,2179.59,16%,61%,3%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1025,21.11,19.25,15,Yes,76%,19731.25,1906.5,1%,94%,9%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1856,59.77,50.81,191,Yes,71%,94303.36,16629.76,10%,76%,15%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,239,11.46,11.28,4,Yes,72%,2695.92,43.02,2%,98%,2%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Pending,1007,52.44,46.06,167,Yes,10%,46382.42,6424.66,17%,61%,12%
+Vendor_01,Alpha_Inc,2023,MRO,Pending,736,16.2,15.33,18,Yes,8%,11282.88,640.32,2%,94%,5%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1007,22.56,19.59,33,Yes,72%,19727.13,2990.79,3%,98%,13%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,612,20.99,19.75,102,Yes,70%,12087,758.88,17%,61%,6%
+Vendor_01,Alpha_Inc,2023,MRO,Pending,1949,72.53,63.26,48,No,8%,123293.74,18067.23,2%,6%,13%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Cancelled,1640,77.92,76.41,262,No,9%,125312.4,2476.4,16%,39%,2%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1317,68.13,60.52,136,Yes,71%,79704.84,10022.37,10%,76%,11%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,881,100.94,95.05,30,Yes,72%,83739.05,5189.09,3%,98%,6%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1578,48.33,42.77,206,Yes,70%,67491.06,8773.68,13%,61%,12%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1204,39.29,35.44,155,Yes,70%,42669.76,4635.4,13%,61%,10%
+Vendor_04,Epsilon_Group,2023,MRO,Pending,1558,93.46,91.27,39,Yes,11%,142198.66,3412.02,3%,98%,2%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1892,32.99,28.81,35,Yes,76%,54508.52,7908.56,2%,94%,13%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,696,99.59,90.18,25,Yes,72%,62765.28,6549.36,4%,98%,9%
+Vendor_03,Delta_Logistics,2023,MRO,Partially Delivered,70,12.37,11.04,10,Yes,11%,772.8,93.1,14%,61%,11%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,890,98.26,93.14,49,Yes,72%,82894.6,4556.8,6%,86%,5%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,216,13.95,12.31,5,Yes,76%,2658.96,354.24,2%,94%,12%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1347,100.13,94.3,200,Yes,70%,127022.1,7853.01,15%,61%,6%
+Vendor_05,Gamma_Co,2022,Office Supplies,Partially Delivered,437,59.51,56.45,25,No,13%,24668.65,1337.22,6%,14%,5%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,650,103.84,88.28,12,Yes,76%,57382,10114,2%,94%,15%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,365,16.81,15.41,38,Yes,71%,5624.65,511,10%,76%,8%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Cancelled,63,61.94,53.8,33,Yes,8%,3389.4,512.82,52%,98%,13%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,291,98.7,87.02,9,Yes,76%,25322.82,3398.88,3%,94%,12%
+Vendor_01,Alpha_Inc,2023,MRO,Cancelled,826,60.5,57.18,18,Yes,9%,47230.68,2742.32,2%,94%,5%
+Vendor_03,Delta_Logistics,2022,Electronics,Pending,1419,69.64,59.28,194,Yes,10%,84118.32,14700.84,14%,61%,15%
+Vendor_05,Gamma_Co,2023,Office Supplies,Delivered,614,78.06,73.95,40,Yes,72%,45405.3,2523.54,7%,86%,5%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,947,56.25,54.25,19,Yes,76%,51374.75,1894,2%,94%,4%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,1413,70.47,69.65,33,Yes,72%,98415.45,1158.66,2%,98%,1%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Partially Delivered,141,64.15,58.32,24,Yes,7%,8223.12,822.03,17%,94%,9%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1440,96.57,83.87,36,Yes,76%,120772.8,18288,3%,94%,13%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1005,14.87,12.79,155,No,70%,12853.95,2090.4,15%,39%,14%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1528,36.52,33,31,No,76%,50424,5378.56,2%,6%,10%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1501,106.05,100.99,77,No,72%,151585.99,7595.06,5%,14%,5%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,558,94.18,81.4,155,No,70%,45421.2,7131.24,28%,39%,14%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,825,56.88,50.84,105,Yes,71%,41943,4983,13%,76%,11%
+Vendor_02,Beta_Supplies,2023,Electronics,Cancelled,84,73.38,71.42,9,Yes,9%,5999.28,164.64,11%,76%,3%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,255,38.64,33.59,27,No,70%,8565.45,1287.75,11%,39%,13%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1154,27.2,26.07,58,Yes,72%,30084.78,1304.02,5%,86%,4%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,1635,56.91,54.37,262,No,70%,88894.95,4152.9,16%,39%,4%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1945,46.19,40.12,278,No,70%,78033.4,11806.15,14%,39%,13%
+Vendor_03,Delta_Logistics,2022,MRO,Partially Delivered,1461,64.09,63.39,228,No,11%,92612.79,1022.7,16%,39%,1%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1075,18.53,16.12,147,Yes,70%,17329,2590.75,14%,61%,13%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1071,101.6,93.91,25,Yes,76%,100577.61,8235.99,2%,94%,8%
+Vendor_04,Epsilon_Group,2022,Packaging,Pending,1463,101.23,86.17,43,Yes,11%,126066.71,22032.78,3%,98%,15%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,615,78.3,73.68,69,Yes,71%,45313.2,2841.3,11%,76%,6%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,1179,61.74,56.28,55,Yes,72%,66354.12,6437.34,5%,86%,9%
+Vendor_01,Alpha_Inc,2022,Electronics,Partially Delivered,1845,39.56,37.63,45,Yes,7%,69427.35,3560.85,2%,94%,5%
+Vendor_02,Beta_Supplies,2023,Electronics,Cancelled,1895,91.98,86.27,170,Yes,9%,163481.65,10820.45,9%,76%,6%
+Vendor_04,Epsilon_Group,2023,MRO,Partially Delivered,1550,79.86,69.57,32,No,8%,107833.5,15949.5,2%,86%,13%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,752,26.85,24.37,155,No,70%,18326.24,1864.96,21%,39%,9%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,451,95.2,90.07,21,Yes,72%,40621.57,2313.63,5%,98%,5%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,779,93.69,90.92,66,Yes,71%,70826.68,2157.83,8%,76%,3%
+Vendor_02,Beta_Supplies,2022,MRO,Pending,1629,100.26,86.44,187,No,12%,140810.76,22512.78,11%,24%,14%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,211,75.69,65.4,2,Yes,76%,13799.4,2171.19,1%,94%,14%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,251,67.49,64.48,2,Yes,76%,16184.48,755.51,1%,94%,4%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,1045,47.88,44.65,69,Yes,72%,46659.25,3375.35,7%,86%,7%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,319,98.64,89.15,57,Yes,70%,28438.85,3027.31,18%,61%,10%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Partially Delivered,1936,93.66,92.24,58,Yes,8%,178576.64,2749.12,3%,98%,2%
+Vendor_03,Delta_Logistics,2022,MRO,Cancelled,865,14.7,13.14,135,No,9%,11366.1,1349.4,16%,39%,11%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1344,12.5,10.87,44,Yes,72%,14609.28,2190.72,3%,98%,13%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Pending,505,45.42,40.37,62,Yes,10%,20386.85,2550.25,12%,61%,11%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1535,90.83,78.28,151,No,71%,120159.8,19264.25,10%,24%,14%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1800,103.8,96.27,166,Yes,71%,173286,13554,9%,76%,7%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Pending,1325,24.36,22.75,206,Yes,10%,30143.75,2133.25,16%,61%,7%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1066,70.45,65.88,56,No,72%,70228.08,4871.62,5%,14%,6%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1775,47.82,45.86,180,Yes,71%,81401.5,3479,10%,76%,4%
+Vendor_05,Gamma_Co,2023,Raw Materials,Partially Delivered,345,103.62,98.09,25,No,13%,33841.05,1907.85,7%,14%,5%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1798,94.8,91.83,105,Yes,71%,165110.34,5340.06,6%,76%,3%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,769,91.86,86.55,17,Yes,76%,66556.95,4083.39,2%,94%,6%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1822,53.23,47.49,39,Yes,76%,86526.78,10458.28,2%,94%,11%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,387,49.23,45.41,61,Yes,70%,17573.67,1478.34,16%,61%,8%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,928,35.3,32.52,26,Yes,72%,30178.56,2579.84,3%,98%,8%
+Vendor_01,Alpha_Inc,2022,Packaging,Partially Delivered,1126,15.68,14.97,27,Yes,7%,16856.22,799.46,2%,94%,5%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Cancelled,841,95.73,85.33,81,Yes,9%,71762.53,8746.4,10%,76%,11%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1995,90.65,77.75,206,Yes,71%,155111.25,25735.5,10%,76%,14%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,266,103.97,101.44,6,Yes,76%,26983.04,672.98,2%,94%,2%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Cancelled,813,109.17,107.39,14,Yes,9%,87308.07,1447.14,2%,94%,2%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,237,64.19,59.01,7,Yes,72%,13985.37,1227.66,3%,98%,8%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Cancelled,429,86.73,75.09,9,Yes,9%,32213.61,4993.56,2%,94%,13%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,542,101.21,93.11,78,No,70%,50465.62,4390.2,14%,39%,8%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1114,91.66,85.53,35,Yes,72%,95280.42,6828.82,3%,98%,7%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1230,33.39,30.85,26,Yes,76%,37945.5,3124.2,2%,94%,8%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,64,51.56,50.88,5,Yes,71%,3256.32,43.52,8%,76%,1%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1886,23.46,23.18,24,Yes,76%,43717.48,528.08,1%,94%,1%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,114,103.53,101.54,14,Yes,70%,11575.56,226.86,12%,61%,2%
+Vendor_03,Delta_Logistics,2022,Electronics,Cancelled,1930,65.52,56.9,282,Yes,9%,109817,16636.6,15%,61%,13%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,1912,30.73,29.82,191,Yes,12%,57015.84,1739.92,10%,76%,3%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,570,71.51,66.47,33,Yes,72%,37887.9,2872.8,6%,98%,7%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1417,67.27,60.62,105,Yes,71%,85898.54,9423.05,7%,76%,10%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Delivered,1202,46.67,44.13,21,No,76%,53044.26,3053.08,2%,6%,5%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,697,20.73,19.83,78,No,71%,13821.51,627.3,11%,24%,4%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1545,78.19,76.91,42,Yes,72%,118825.95,1977.6,3%,98%,2%
+Vendor_05,Gamma_Co,2023,MRO,Partially Delivered,1136,60.81,58.25,62,Yes,13%,66172,2908.16,5%,86%,4%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1212,87.46,74.55,118,No,71%,90354.6,15646.92,10%,24%,15%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1572,57.38,49.32,40,Yes,72%,77531.04,12670.32,3%,98%,14%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,642,91.9,81.49,26,Yes,72%,52316.58,6683.22,4%,86%,11%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,441,63.25,54.12,16,Yes,72%,23866.92,4026.33,4%,98%,14%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1748,66.53,57.11,33,Yes,72%,99828.28,16466.16,2%,98%,14%
+Vendor_05,Gamma_Co,2023,Electronics,Pending,468,95.57,91.8,24,Yes,11%,42962.4,1764.36,5%,86%,4%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,338,50.25,46.28,49,No,71%,15642.64,1341.86,14%,24%,8%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,428,22.94,21.52,26,Yes,72%,9210.56,607.76,6%,86%,6%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1846,13.72,12.62,216,Yes,71%,23296.52,2030.6,12%,76%,8%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1563,77.96,70.8,41,Yes,72%,110660.4,11191.08,3%,98%,9%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,280,73.07,69.29,30,Yes,71%,19401.2,1058.4,11%,76%,5%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1067,74.47,64.16,155,No,70%,68458.72,11000.77,15%,39%,14%
+Vendor_05,Gamma_Co,2023,Electronics,Pending,90,32.38,29.96,7,Yes,11%,2696.4,217.8,8%,86%,7%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1101,24.28,22.73,59,No,72%,25025.73,1706.55,5%,14%,6%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,184,11.82,10.51,4,Yes,76%,1933.84,241.04,2%,94%,11%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,250,45.92,41.02,3,Yes,72%,10255,1225,1%,98%,11%
+Vendor_04,Epsilon_Group,2022,Packaging,Cancelled,1913,66.56,61.34,61,Yes,8%,117343.42,9985.86,3%,98%,8%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,829,45.98,40.39,105,Yes,71%,33483.31,4634.11,13%,76%,12%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,979,51.59,49.69,148,Yes,70%,48646.51,1860.1,15%,61%,4%
+Vendor_04,Epsilon_Group,2023,Electronics,Partially Delivered,1106,97.77,90.45,31,Yes,8%,100037.7,8095.92,3%,98%,7%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Pending,1121,42.38,38.34,152,Yes,10%,42979.14,4528.84,14%,61%,10%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,552,60.48,56.78,10,Yes,76%,31342.56,2042.4,2%,94%,6%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,456,80.53,77.86,26,Yes,72%,35504.16,1217.52,6%,86%,3%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,1647,47.52,44.92,155,Yes,70%,73983.24,4282.2,9%,61%,5%
+Vendor_04,Epsilon_Group,2023,Electronics,Pending,1801,71.27,61.24,43,Yes,11%,110293.24,18064.03,2%,98%,14%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,854,90.24,85.53,55,Yes,72%,73042.62,4022.34,6%,86%,5%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,148,103.57,98.62,23,No,70%,14595.76,732.6,16%,39%,5%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,733,23.59,22.85,92,Yes,70%,16749.05,542.42,13%,61%,3%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1945,103.2,88.56,105,Yes,71%,172249.2,28474.8,5%,76%,14%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,775,57,49.14,48,Yes,72%,38083.5,6091.5,6%,86%,14%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1620,36.73,33.45,235,No,70%,54189,5313.6,15%,39%,9%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1010,55.68,50.86,105,Yes,71%,51368.6,4868.2,10%,76%,9%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1812,108.02,101.02,51,Yes,72%,183048.24,12684,3%,98%,6%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,662,55.97,50,100,Yes,70%,33100,3952.14,15%,61%,11%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,1535,40.58,38.71,165,Yes,12%,59419.85,2870.45,11%,76%,5%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,692,71.03,67.74,70,Yes,71%,46876.08,2276.68,10%,76%,5%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1842,32.4,28.08,96,Yes,72%,51723.36,7957.44,5%,86%,13%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Cancelled,1078,18.34,17.41,102,Yes,9%,18767.98,1002.54,9%,76%,5%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1291,23.44,22.23,155,Yes,70%,28698.93,1562.11,12%,61%,5%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,552,21.52,18.79,13,Yes,76%,10372.08,1506.96,2%,94%,13%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,816,26.04,25.61,28,Yes,72%,20897.76,350.88,3%,98%,2%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,447,23.62,21.81,50,Yes,70%,9749.07,809.07,11%,61%,8%
+Vendor_03,Delta_Logistics,2023,Packaging,Partially Delivered,920,73.09,70.14,155,Yes,11%,64528.8,2714,17%,61%,4%
+Vendor_04,Epsilon_Group,2022,Packaging,Partially Delivered,844,26.37,25.08,38,Yes,8%,21167.52,1088.76,5%,98%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,442,41.73,36.45,15,Yes,72%,16110.9,2333.76,3%,98%,13%
+Vendor_02,Beta_Supplies,2023,Electronics,Cancelled,256,96.15,83.44,26,Yes,9%,21360.64,3253.76,10%,76%,13%
+Vendor_03,Delta_Logistics,2022,MRO,Partially Delivered,1088,55.29,53.04,161,No,11%,57707.52,2448,15%,39%,4%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1931,72.88,64.69,187,Yes,71%,124916.39,15814.89,10%,76%,11%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1627,25.76,25.09,74,Yes,72%,40821.43,1090.09,5%,86%,3%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,941,28.4,27.21,105,No,71%,25604.61,1119.79,11%,24%,4%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1534,14.98,12.79,55,Yes,72%,19619.86,3359.46,4%,86%,15%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,1764,25.46,24.52,46,Yes,76%,43253.28,1658.16,3%,94%,4%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,1648,35.42,31.46,155,No,70%,51846.08,6526.08,9%,39%,11%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,913,28.01,24.06,53,Yes,72%,21966.78,3606.35,6%,86%,14%
+Vendor_01,Alpha_Inc,2022,Packaging,Cancelled,792,18.16,17.25,17,Yes,9%,13662,720.72,2%,94%,5%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Partially Delivered,1314,22.63,21.06,44,Yes,8%,27672.84,2062.98,3%,98%,7%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,613,52.5,45.19,70,Yes,71%,27701.47,4481.03,11%,76%,14%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1070,29.14,26.63,24,Yes,76%,28494.1,2685.7,2%,94%,9%
+Vendor_05,Gamma_Co,2023,Raw Materials,Partially Delivered,145,47.49,42.76,6,Yes,13%,6200.2,685.85,4%,86%,10%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1973,59.73,54.95,291,Yes,70%,108416.35,9430.94,15%,61%,8%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1807,78.63,73.08,100,Yes,72%,132055.56,10028.85,6%,98%,7%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,534,13.88,12.51,100,Yes,72%,6680.34,731.58,19%,98%,10%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1480,85.22,75.48,100,Yes,76%,111710.4,14415.2,7%,94%,11%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,280,72.16,62.38,100,Yes,76%,17466.4,2738.4,36%,94%,14%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Cancelled,798,19.09,17.76,100,Yes,9%,14172.48,1061.34,13%,76%,7%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1728,94.83,90.2,100,Yes,72%,155865.6,8000.64,6%,98%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1244,96.13,84.78,43,Yes,72%,105466.32,14119.4,3%,98%,12%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,590,16.89,15.56,46,No,71%,9180.4,784.7,8%,24%,8%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1109,38.93,33.33,152,Yes,70%,36962.97,6210.4,14%,61%,14%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,574,85.03,82.55,54,Yes,71%,47383.7,1423.52,9%,76%,3%
+Vendor_05,Gamma_Co,2024,Office Supplies,Delivered,1233,86.62,76.59,65,Yes,72%,94435.47,12366.99,5%,86%,12%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1912,27.94,25.59,83,No,72%,48928.08,4493.2,4%,14%,8%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1772,30.72,27.76,46,No,76%,49190.72,5245.12,3%,6%,10%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1316,48.11,41.9,135,Yes,71%,55140.4,8172.36,10%,76%,13%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1159,59.24,58.08,105,Yes,71%,67314.72,1344.44,9%,76%,2%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1869,69.58,67.5,31,Yes,76%,126157.5,3887.52,2%,94%,3%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,627,46.23,42.87,155,Yes,70%,26879.49,2106.72,25%,61%,7%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Pending,731,56.02,54.78,70,No,12%,40044.18,906.44,10%,24%,2%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Cancelled,606,83.07,79.22,16,Yes,8%,48007.32,2333.1,3%,98%,5%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1647,13.57,12.33,157,Yes,71%,20307.51,2042.28,10%,76%,9%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1062,34.03,30.46,155,Yes,70%,32348.52,3791.34,15%,61%,10%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,695,76.8,69.76,105,No,71%,48483.2,4892.8,15%,24%,9%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,845,91.47,86.97,33,Yes,72%,73489.65,3802.5,4%,98%,5%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1101,59.13,52.51,54,Yes,72%,57813.51,7288.62,5%,86%,11%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,1693,57.89,49.84,88,Yes,72%,84379.12,13628.65,5%,86%,14%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Cancelled,1629,21.51,19.41,250,No,9%,31618.89,3420.9,15%,39%,10%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1413,54.79,50.42,155,Yes,70%,71243.46,6174.81,11%,61%,8%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,1871,59.96,58.54,47,Yes,72%,109528.34,2656.82,3%,98%,2%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1404,34.85,30.5,78,Yes,72%,42822,6107.4,6%,86%,12%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1713,35.43,34.11,74,Yes,72%,58430.43,2261.16,4%,86%,4%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1579,43.96,43.41,74,Yes,72%,68544.39,868.45,5%,86%,1%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1421,11.92,11.72,76,Yes,72%,16654.12,284.2,5%,86%,2%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1546,43.47,37.37,53,Yes,72%,57774.02,9430.6,3%,98%,14%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1304,32.08,29.36,155,Yes,70%,38285.44,3546.88,12%,61%,8%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,239,39.87,35.47,32,Yes,70%,8477.33,1051.6,13%,61%,11%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1298,21.51,20.83,24,Yes,76%,27037.34,882.64,2%,94%,3%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1458,91.05,81.56,220,Yes,70%,118914.48,13836.42,15%,61%,10%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1450,63.74,59.11,71,Yes,72%,85709.5,6713.5,5%,86%,7%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,1356,75.03,63.86,131,Yes,71%,86594.16,15146.52,10%,76%,15%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,682,81.84,71.86,40,Yes,72%,49008.52,6806.36,6%,86%,12%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,677,59.52,55.29,39,Yes,72%,37431.33,2863.71,6%,86%,7%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1022,18.54,16.55,150,Yes,70%,16914.1,2033.78,15%,61%,11%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,1818,60.96,57.13,41,Yes,76%,103862.34,6962.94,2%,94%,6%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1332,69.73,63.8,41,Yes,72%,84981.6,7898.76,3%,98%,9%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1432,83.26,77.67,174,Yes,71%,111223.44,8004.88,12%,76%,7%
+Vendor_02,Beta_Supplies,2022,Packaging,Pending,759,50.56,46.47,63,No,12%,35270.73,3104.31,8%,24%,8%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1529,23.42,22.44,30,Yes,76%,34310.76,1498.42,2%,94%,4%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1484,36.25,31.8,61,Yes,72%,47191.2,6603.8,4%,86%,12%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,698,46.73,45.61,15,Yes,72%,31835.78,781.76,2%,98%,2%
+Vendor_04,Epsilon_Group,2023,Packaging,Pending,367,74.61,71.36,13,Yes,11%,26189.12,1192.75,4%,98%,4%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Partially Delivered,1750,65.97,58.34,50,Yes,8%,102095,13352.5,3%,98%,12%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Partially Delivered,1298,43.73,37.21,155,No,11%,48298.58,8462.96,12%,39%,15%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,1892,106.2,96.37,93,Yes,72%,182332.04,18598.36,5%,86%,9%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1307,68.71,60.64,141,Yes,71%,79256.48,10547.49,11%,76%,12%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,733,32.29,29.01,78,Yes,71%,21264.33,2404.24,11%,76%,10%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,713,19.45,18.82,31,Yes,72%,13418.66,449.19,4%,86%,3%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,1900,24.11,23.45,188,Yes,71%,44555,1254,10%,76%,3%
+Vendor_03,Delta_Logistics,2023,MRO,Cancelled,1447,35.67,35.07,224,No,9%,50746.29,868.2,15%,39%,2%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1745,26.17,22.25,55,Yes,72%,38826.25,6840.4,3%,98%,15%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1681,28.26,26.62,143,Yes,71%,44748.22,2756.84,9%,76%,6%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1545,38.15,36.96,214,Yes,70%,57103.2,1838.55,14%,61%,3%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,1306,27.27,25.96,39,Yes,72%,33903.76,1710.86,3%,98%,5%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1765,97.51,84.3,65,Yes,72%,148789.5,23315.65,4%,86%,14%
+Vendor_05,Gamma_Co,2022,Packaging,Cancelled,1186,17.31,16,64,Yes,4%,18976,1553.66,5%,86%,8%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1903,63.5,56.09,254,Yes,70%,106739.27,14101.23,13%,61%,12%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1570,52.1,47.87,155,No,70%,75155.9,6641.1,10%,39%,8%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,491,108.75,93.35,155,No,70%,45834.85,7561.4,32%,39%,14%
+Vendor_02,Beta_Supplies,2022,Electronics,Partially Delivered,613,20.38,20.17,58,Yes,8%,12364.21,128.73,9%,76%,1%
+Vendor_05,Gamma_Co,2022,Raw Materials,Partially Delivered,1341,46.27,43.94,63,Yes,13%,58923.54,3124.53,5%,86%,5%
+Vendor_02,Beta_Supplies,2023,MRO,Partially Delivered,1583,103.57,89.38,164,Yes,8%,141488.54,22462.77,10%,76%,14%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Cancelled,1880,92.73,90.78,173,Yes,9%,170666.4,3666,9%,76%,2%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1459,84.79,82.72,47,Yes,72%,120688.48,3020.13,3%,98%,2%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1460,34.54,31.87,208,No,70%,46530.2,3898.2,14%,39%,8%
+Vendor_02,Beta_Supplies,2022,Packaging,Partially Delivered,1186,26.14,24.78,112,Yes,8%,29389.08,1612.96,9%,76%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Pending,1686,72.28,65.21,53,Yes,11%,109944.06,11920.02,3%,98%,10%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1698,102.07,100.69,28,Yes,76%,170971.62,2343.24,2%,94%,1%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1001,64.62,55.7,32,Yes,72%,55755.7,8928.92,3%,98%,14%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1154,62.67,54.11,25,Yes,76%,62442.94,9878.24,2%,94%,14%
+Vendor_01,Alpha_Inc,2023,Packaging,Cancelled,748,37.66,32.71,24,No,9%,24467.08,3702.6,3%,6%,13%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,162,81.63,78.76,2,Yes,76%,12759.12,464.94,1%,94%,4%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,51,28.04,24.13,0,Yes,76%,1230.63,199.41,0%,94%,14%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,691,42.07,39.1,106,Yes,70%,27018.1,2052.27,15%,61%,7%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,269,50.22,45.75,32,No,71%,12306.75,1202.43,12%,24%,9%
+Vendor_02,Beta_Supplies,2022,Electronics,Pending,1639,56.24,55.4,147,Yes,12%,90800.6,1376.76,9%,76%,1%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Delivered,904,34.04,30.06,26,Yes,76%,27174.24,3597.92,3%,94%,12%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1809,22.17,19.65,105,Yes,71%,35546.85,4558.68,6%,76%,11%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1298,65.93,58.95,24,Yes,76%,76517.1,9060.04,2%,94%,11%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,434,36.16,34.79,41,Yes,71%,15098.86,594.58,9%,76%,4%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1476,68.85,65.28,43,Yes,72%,96353.28,5269.32,3%,98%,5%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Partially Delivered,1711,26.04,24.81,290,Yes,11%,42449.91,2104.53,17%,61%,5%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1203,53.3,47.68,49,Yes,72%,57359.04,6760.86,4%,86%,11%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1126,58.8,52.22,24,Yes,76%,58799.72,7409.08,2%,94%,11%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,1757,15.18,13.06,63,Yes,72%,22946.42,3724.84,4%,98%,14%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,779,41.3,36.28,20,Yes,72%,28262.12,3910.58,3%,98%,12%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,1745,23.53,22.57,282,No,70%,39384.65,1675.2,16%,39%,4%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1783,16.96,15.8,295,Yes,70%,28171.4,2068.28,17%,61%,7%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Partially Delivered,1489,107.02,93.3,24,Yes,7%,138923.7,20429.08,2%,94%,13%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,296,40.38,35.25,24,Yes,76%,10434,1518.48,8%,94%,13%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,885,88.28,80.8,31,Yes,72%,71508,6619.8,4%,98%,8%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Pending,1512,33.25,30.15,53,Yes,11%,45586.8,4687.2,4%,98%,9%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,252,73.12,67.64,155,No,70%,17045.28,1380.96,62%,39%,7%
+Vendor_01,Alpha_Inc,2023,Electronics,Cancelled,1257,83.13,81.89,30,Yes,9%,102935.73,1558.68,2%,94%,1%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,172,63.61,55.92,4,Yes,76%,9618.24,1322.68,2%,94%,12%
+Vendor_04,Epsilon_Group,2023,Packaging,Pending,450,55.85,49.88,9,Yes,11%,22446,2686.5,2%,98%,11%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,816,48.95,43.42,45,Yes,72%,35430.72,4512.48,6%,86%,11%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,343,44.5,38.57,7,Yes,72%,13229.51,2033.99,2%,98%,13%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,329,97.87,85.35,21,No,72%,28080.15,4119.08,6%,14%,13%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1910,90.69,85.8,24,Yes,76%,163878,9339.9,1%,94%,5%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,933,107.99,104.29,29,Yes,72%,97302.57,3452.1,3%,98%,3%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1683,23.09,21.88,253,Yes,70%,36824.04,2036.43,15%,61%,5%
+Vendor_02,Beta_Supplies,2023,Packaging,Pending,247,84.11,71.97,105,Yes,12%,17776.59,2998.58,43%,76%,14%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1031,102.01,98.65,24,Yes,76%,101708.15,3464.16,2%,94%,3%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1980,26.97,24.16,41,Yes,76%,47836.8,5563.8,2%,94%,10%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,1584,16.46,14.2,57,Yes,72%,22492.8,3579.84,4%,98%,14%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,801,80.15,70.91,105,Yes,71%,56798.91,7401.24,13%,76%,12%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,193,63.86,57.46,105,Yes,71%,11089.78,1235.2,54%,76%,10%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,658,86.62,79.85,72,Yes,71%,52541.3,4454.66,11%,76%,8%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1274,24.72,23.36,37,Yes,72%,29760.64,1732.64,3%,98%,6%
+Vendor_04,Epsilon_Group,2023,Packaging,Partially Delivered,1197,88.92,78.82,31,Yes,8%,94347.54,12089.7,3%,98%,11%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,236,28.43,28.11,11,Yes,72%,6633.96,75.52,5%,86%,1%
+Vendor_05,Gamma_Co,2022,Raw Materials,Partially Delivered,1399,25.97,22.19,62,Yes,13%,31043.81,5288.22,4%,86%,15%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,513,24.91,22.58,29,Yes,72%,11583.54,1195.29,6%,86%,9%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1422,83.73,76.47,198,Yes,70%,108740.34,10323.72,14%,61%,9%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1844,76.51,73.05,24,Yes,76%,134704.2,6380.24,1%,94%,5%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,709,61.64,54.55,41,Yes,72%,38675.95,5026.81,6%,86%,12%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,813,45.68,41.78,155,No,70%,33967.14,3170.7,19%,39%,9%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,1004,96.51,92.9,146,No,70%,93271.6,3624.44,15%,39%,4%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,452,46.45,40.39,9,Yes,72%,18256.28,2739.12,2%,98%,13%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Pending,1419,83.91,71.46,137,Yes,12%,101401.74,17666.55,10%,76%,15%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1584,53.73,51.92,167,No,71%,82241.28,2867.04,11%,24%,3%
+Vendor_05,Gamma_Co,2022,MRO,Pending,196,44.36,43.81,6,Yes,11%,8586.76,107.8,3%,86%,1%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1221,53.19,46.18,29,Yes,76%,56385.78,8559.21,2%,94%,13%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,913,37.5,36.2,24,Yes,76%,33050.6,1186.9,3%,94%,3%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1784,85.01,76.69,37,Yes,76%,136814.96,14842.88,2%,94%,10%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1893,55.8,52.35,155,Yes,70%,99098.55,6530.85,8%,61%,6%
+Vendor_03,Delta_Logistics,2023,Electronics,Pending,538,34.3,32.25,84,No,10%,17350.5,1102.9,16%,39%,6%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Pending,978,94.15,87.7,149,No,10%,85770.6,6308.1,15%,39%,7%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Cancelled,1713,47.45,42.05,53,Yes,8%,72031.65,9250.2,3%,98%,11%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Pending,600,60.1,57.92,95,No,10%,34752,1308,16%,39%,4%
+Vendor_01,Alpha_Inc,2023,Electronics,Pending,387,100.28,85.54,5,Yes,8%,33103.98,5704.38,1%,94%,15%
+Vendor_01,Alpha_Inc,2022,MRO,Pending,921,68.83,59.13,22,Yes,8%,54458.73,8933.7,2%,94%,14%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,690,22.47,21.94,77,Yes,71%,15138.6,365.7,11%,76%,2%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Cancelled,1852,104.04,94.89,36,Yes,9%,175736.28,16945.8,2%,94%,9%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,522,66.83,58.01,74,Yes,70%,30281.22,4604.04,14%,61%,13%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,200,44.16,43.13,21,Yes,70%,8626,206,11%,61%,2%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1488,22.76,21.99,55,Yes,72%,32721.12,1145.76,4%,86%,3%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,1371,87.16,78.13,43,Yes,72%,107116.23,12380.13,3%,98%,10%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1684,73.05,62.53,24,Yes,76%,105300.52,17715.68,1%,94%,14%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,312,63.52,58.09,33,Yes,72%,18124.08,1694.16,11%,98%,9%
+Vendor_01,Alpha_Inc,2023,Packaging,Cancelled,1837,99.04,86.51,39,Yes,9%,158918.87,23017.61,2%,94%,13%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,193,87.86,81.74,21,Yes,71%,15775.82,1181.16,11%,76%,7%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,395,24.83,23.96,31,Yes,71%,9464.2,343.65,8%,76%,4%
+Vendor_04,Epsilon_Group,2022,Electronics,Cancelled,673,39.58,35.83,25,Yes,8%,24113.59,2523.75,4%,98%,9%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Cancelled,1066,33.33,28.47,162,No,9%,30349.02,5180.76,15%,39%,15%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,1645,85.42,80.78,73,No,72%,132883.1,7632.8,4%,14%,5%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,930,13.67,11.95,16,Yes,76%,11113.5,1599.6,2%,94%,13%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,51,63.74,56.1,0,Yes,76%,2861.1,389.64,0%,94%,12%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,946,81.77,71.65,55,Yes,72%,67780.9,9573.52,6%,86%,12%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Partially Delivered,1377,94.69,84.2,33,Yes,8%,115943.4,14444.73,2%,98%,11%
+Vendor_04,Epsilon_Group,2022,Packaging,Cancelled,303,41.6,40.51,11,Yes,8%,12274.53,330.27,4%,98%,3%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Delivered,1725,93.14,79.62,24,Yes,76%,137344.5,23322,1%,94%,15%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Cancelled,502,22.05,20.65,50,No,9%,10366.3,702.8,10%,24%,6%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1110,90.49,80.03,61,Yes,72%,88833.3,11610.6,5%,86%,12%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1233,23.08,20.57,24,Yes,76%,25362.81,3094.83,2%,94%,11%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1064,48.04,43.6,94,Yes,71%,46390.4,4724.16,9%,76%,9%
+Vendor_04,Epsilon_Group,2022,Packaging,Partially Delivered,58,82.57,76.55,33,Yes,8%,4439.9,349.16,57%,98%,7%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,1306,23.49,20.17,116,No,71%,26342.02,4335.92,9%,24%,14%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1172,32.93,29.28,155,No,70%,34316.16,4277.8,13%,39%,11%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1732,82.5,71.71,24,Yes,76%,124201.72,18688.28,1%,94%,13%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,865,81.54,71.59,39,Yes,72%,61925.35,8606.75,5%,86%,12%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,257,68.72,66.92,22,Yes,71%,17198.44,462.6,9%,76%,3%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,1204,73.18,67.59,31,Yes,72%,81378.36,6730.36,3%,98%,8%
+Vendor_02,Beta_Supplies,2023,Electronics,Partially Delivered,453,64.14,60.18,51,Yes,8%,27261.54,1793.88,11%,76%,6%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,201,33.81,32.54,3,Yes,72%,6540.54,255.27,1%,98%,4%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,103,44.61,42.88,10,Yes,70%,4416.64,178.19,10%,61%,4%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1193,27.4,27.09,33,Yes,72%,32318.37,369.83,3%,98%,1%
+Vendor_05,Gamma_Co,2022,Office Supplies,Partially Delivered,1746,93.6,89.81,85,Yes,13%,156808.26,6617.34,5%,86%,4%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,1993,65.94,59.36,155,Yes,70%,118304.48,13113.94,8%,61%,10%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,677,46.54,43.11,105,No,71%,29185.47,2322.11,16%,24%,7%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Pending,636,53.64,49.23,18,Yes,8%,31310.28,2804.76,3%,94%,8%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1698,100.97,98.73,52,Yes,72%,167643.54,3803.52,3%,98%,2%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,1493,24.87,22.89,56,Yes,72%,34174.77,2956.14,4%,86%,8%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1495,64.33,58.18,26,Yes,76%,86979.1,9194.25,2%,94%,10%
+Vendor_01,Alpha_Inc,2023,Packaging,Cancelled,153,59.42,52,3,Yes,9%,7956,1135.26,2%,94%,12%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Cancelled,1925,70.88,63.41,292,Yes,9%,122064.25,14379.75,15%,61%,11%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,303,12.97,11.42,105,No,71%,3460.26,469.65,35%,24%,12%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1300,92.92,90.63,24,Yes,76%,117819,2977,2%,94%,2%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1185,103.28,99.05,55,Yes,72%,117374.25,5012.55,5%,86%,4%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,559,67.56,57.98,15,Yes,72%,32410.82,5355.22,3%,98%,14%
+Vendor_04,Epsilon_Group,2023,Electronics,Pending,1546,78.88,78,38,Yes,11%,120588,1360.48,2%,98%,1%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,148,93.02,85.96,4,Yes,72%,12722.08,1044.88,3%,98%,8%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,202,81.75,78.26,37,No,70%,15808.52,704.98,18%,39%,4%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,1934,25.86,25.6,78,Yes,72%,49510.4,502.84,4%,86%,1%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,963,64.96,64.07,20,Yes,76%,61699.41,857.07,2%,94%,1%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1969,71.71,61.96,55,Yes,72%,121999.24,19197.75,3%,86%,14%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,927,48.89,46.05,138,Yes,70%,42688.35,2632.68,15%,61%,6%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Cancelled,387,77.81,69.04,67,Yes,9%,26718.48,3393.99,17%,61%,11%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,1779,97.86,94.36,176,Yes,71%,167866.44,6226.5,10%,76%,4%
+Vendor_05,Gamma_Co,2022,MRO,Pending,871,94.7,92.66,46,Yes,11%,80706.86,1776.84,5%,86%,2%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1236,51.33,44.03,25,Yes,72%,54421.08,9022.8,2%,98%,14%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1793,22.01,21.78,285,Yes,70%,39051.54,412.39,16%,61%,1%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1006,101.1,89.04,139,Yes,70%,89574.24,12132.36,14%,61%,12%
+Vendor_02,Beta_Supplies,2022,Electronics,Cancelled,1754,89.35,86.54,161,No,9%,151791.16,4928.74,9%,24%,3%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,210,22.17,21.32,10,Yes,72%,4477.2,178.5,5%,98%,4%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1653,102.16,91.91,217,Yes,70%,151927.23,16943.25,13%,61%,10%
+Vendor_01,Alpha_Inc,2022,MRO,Partially Delivered,850,91.38,88.41,24,Yes,7%,75148.5,2524.5,3%,94%,3%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,447,59.81,57.92,13,Yes,72%,25890.24,844.83,3%,98%,3%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,1350,65.11,56.95,71,Yes,72%,76882.5,11016,5%,86%,13%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,865,51.19,47.76,83,Yes,71%,41312.4,2966.95,10%,76%,7%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1989,16.5,15.89,57,Yes,76%,31605.21,1213.29,3%,94%,4%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1577,41.77,39.58,32,Yes,76%,62417.66,3453.63,2%,94%,5%
+Vendor_05,Gamma_Co,2023,Packaging,Pending,1969,89.25,87.28,108,No,11%,171854.32,3878.93,5%,14%,2%
+Vendor_02,Beta_Supplies,2023,Packaging,Partially Delivered,1465,11.25,9.61,151,Yes,8%,14078.65,2402.6,10%,76%,15%
+Vendor_03,Delta_Logistics,2022,Packaging,Pending,1208,41.62,39.46,155,Yes,10%,47667.68,2609.28,13%,61%,5%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1268,46.06,45.26,123,Yes,71%,57389.68,1014.4,10%,76%,2%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,450,59.24,55.03,68,No,70%,24763.5,1894.5,15%,39%,7%
+Vendor_05,Gamma_Co,2023,Electronics,Partially Delivered,689,102.53,95.23,38,Yes,13%,65613.47,5029.7,6%,86%,7%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1106,44.05,38.6,51,Yes,72%,42691.6,6027.7,5%,86%,12%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,737,43.08,42.58,21,Yes,76%,31381.46,368.5,3%,94%,1%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,509,76.76,74.72,7,No,76%,38032.48,1038.36,1%,6%,3%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1004,50.7,46.59,27,Yes,76%,46776.36,4126.44,3%,94%,8%
+Vendor_05,Gamma_Co,2022,MRO,Pending,1956,31.88,28.48,86,Yes,11%,55706.88,6650.4,4%,86%,11%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,519,51.73,47.52,81,No,70%,24662.88,2184.99,16%,39%,8%
+Vendor_05,Gamma_Co,2023,MRO,Partially Delivered,1448,25.06,21.62,84,Yes,13%,31305.76,4981.12,6%,86%,14%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1095,26.91,23.75,53,Yes,72%,26006.25,3460.2,5%,86%,12%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,799,56.22,49.51,18,Yes,76%,39558.49,5361.29,2%,94%,12%
+Vendor_02,Beta_Supplies,2023,MRO,Partially Delivered,1743,51.04,47.15,160,Yes,8%,82182.45,6780.27,9%,76%,8%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Delivered,87,100.65,85.56,1,Yes,76%,7443.72,1312.83,1%,94%,15%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,279,47.52,46.5,28,No,71%,12973.5,284.58,10%,24%,2%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1438,66.61,58.5,237,Yes,70%,84123,11662.18,16%,61%,12%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Partially Delivered,612,72.93,63.32,99,Yes,11%,38751.84,5881.32,16%,61%,13%
+Vendor_04,Epsilon_Group,2022,Packaging,Pending,487,11.18,10.63,15,Yes,11%,5176.81,267.85,3%,98%,5%
+Vendor_04,Epsilon_Group,2022,Packaging,Partially Delivered,1849,70.76,69.25,51,Yes,8%,128043.25,2791.99,3%,98%,2%
+Vendor_04,Epsilon_Group,2022,MRO,Partially Delivered,1356,26.28,25.44,47,Yes,8%,34496.64,1139.04,3%,98%,3%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,76,107.59,96.33,10,Yes,70%,7321.08,855.76,13%,61%,10%
+Vendor_01,Alpha_Inc,2022,Packaging,Partially Delivered,275,23.96,20.44,24,Yes,7%,5621,968,9%,94%,15%
+Vendor_01,Alpha_Inc,2023,Packaging,Delivered,1350,51.57,48.07,24,Yes,76%,64894.5,4725,2%,94%,7%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,847,17.77,17.39,24,Yes,76%,14729.33,321.86,3%,94%,2%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1682,105.7,101.3,94,Yes,72%,170386.6,7400.8,6%,86%,4%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,333,60.44,58.54,8,Yes,72%,19493.82,632.7,2%,98%,3%
+Vendor_01,Alpha_Inc,2023,Electronics,Cancelled,928,69.31,67.26,20,Yes,9%,62417.28,1902.4,2%,94%,3%
+Vendor_04,Epsilon_Group,2022,MRO,Partially Delivered,1009,16.44,16.18,33,Yes,8%,16325.62,262.34,3%,98%,2%
+Vendor_04,Epsilon_Group,2023,Electronics,Pending,1554,82.92,74.82,44,Yes,11%,116270.28,12587.4,3%,98%,10%
+Vendor_05,Gamma_Co,2022,Packaging,Partially Delivered,502,29.47,28.94,27,Yes,13%,14527.88,266.06,5%,86%,2%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1069,91.28,82.64,155,Yes,70%,88342.16,9236.16,14%,61%,9%
+Vendor_01,Alpha_Inc,2022,MRO,Pending,1902,29.89,25.83,41,Yes,8%,49128.66,7722.12,2%,94%,14%
+Vendor_05,Gamma_Co,2023,Raw Materials,Pending,865,28.79,25.69,47,Yes,11%,22221.85,2681.5,5%,86%,11%
+Vendor_03,Delta_Logistics,2022,Packaging,Partially Delivered,708,13.36,11.61,155,No,11%,8219.88,1239,22%,39%,13%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1589,55.64,48.52,155,Yes,70%,77098.28,11313.68,10%,61%,13%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,596,62.96,61.88,9,Yes,76%,36880.48,643.68,2%,94%,2%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1265,17.66,16.97,34,Yes,72%,21467.05,872.85,3%,98%,4%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1122,82.99,81.7,118,No,71%,91667.4,1447.38,11%,24%,2%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1585,56.38,53.05,33,Yes,72%,84084.25,5278.05,2%,98%,6%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,66,58.05,50.76,33,Yes,72%,3350.16,481.14,50%,98%,13%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,1245,52.4,51.65,118,No,71%,64304.25,933.75,9%,24%,1%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1293,50.21,47.55,155,No,70%,61482.15,3439.38,12%,39%,5%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,207,64.29,63.01,25,Yes,71%,13043.07,264.96,12%,76%,2%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,526,26.37,25.32,47,Yes,71%,13318.32,552.3,9%,76%,4%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1119,27.03,23.82,55,Yes,72%,26654.58,3591.99,5%,86%,12%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1446,90.63,84.51,77,Yes,72%,122201.46,8849.52,5%,86%,7%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,567,97.53,85.29,21,Yes,72%,48359.43,6940.08,4%,86%,13%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,148,44.91,40.1,155,No,70%,5934.8,711.88,105%,39%,11%
+Vendor_02,Beta_Supplies,2023,MRO,Pending,1965,36.6,34.64,195,Yes,12%,68067.6,3851.4,10%,76%,5%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Pending,1818,67.96,58.98,24,Yes,8%,107225.64,16325.64,1%,94%,13%
+Vendor_02,Beta_Supplies,2022,MRO,Delivered,1110,48.19,45.88,112,Yes,71%,50926.8,2564.1,10%,76%,5%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,329,12.96,12.74,48,Yes,70%,4191.46,72.38,15%,61%,2%
+Vendor_05,Gamma_Co,2023,Office Supplies,Cancelled,1422,25.62,25.18,65,Yes,4%,35805.96,625.68,5%,86%,2%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,546,82.63,74.77,76,No,70%,40824.42,4291.56,14%,39%,10%
+Vendor_05,Gamma_Co,2022,Office Supplies,Partially Delivered,351,72.08,71.3,20,Yes,13%,25026.3,273.78,6%,86%,1%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Partially Delivered,230,13,12.81,155,No,11%,2946.3,43.7,67%,39%,1%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,656,30.73,26.26,17,Yes,76%,17226.56,2932.32,3%,94%,15%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1172,34.34,32.09,69,Yes,72%,37609.48,2637,6%,86%,7%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,749,71.53,70.02,41,Yes,72%,52444.98,1130.99,5%,86%,2%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1042,12.48,12.3,88,Yes,71%,12816.6,187.56,8%,76%,1%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1189,19.47,17.15,155,No,70%,20391.35,2758.48,13%,39%,12%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,240,88.14,81.9,4,Yes,72%,19656,1497.6,2%,98%,7%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,302,26.98,26.47,9,Yes,72%,7993.94,154.02,3%,98%,2%
+Vendor_02,Beta_Supplies,2022,MRO,Pending,1030,70.81,61.58,105,No,12%,63427.4,9506.9,10%,24%,13%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,977,33.79,32.25,137,Yes,70%,31508.25,1504.58,14%,61%,5%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1234,19.99,17.66,25,Yes,76%,21792.44,2875.22,2%,94%,12%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1329,33.48,33.06,146,Yes,71%,43936.74,558.18,11%,76%,1%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,1396,77.63,67.81,58,Yes,72%,94662.76,13708.72,4%,86%,13%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,177,90.06,87.71,7,Yes,76%,15524.67,415.95,4%,94%,3%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,67,84.72,73.06,9,Yes,70%,4895.02,781.22,13%,61%,14%
+Vendor_05,Gamma_Co,2023,Office Supplies,Delivered,1866,50.78,48.2,96,Yes,72%,89941.2,4814.28,5%,86%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1808,72.23,67.86,53,Yes,72%,122690.88,7900.96,3%,98%,6%
+Vendor_03,Delta_Logistics,2023,Electronics,Cancelled,615,30.3,29.52,96,Yes,9%,18154.8,479.7,16%,61%,3%
+Vendor_05,Gamma_Co,2022,Office Supplies,Pending,619,38.38,35.02,34,Yes,11%,21677.38,2079.84,5%,86%,9%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1396,94.75,84.06,210,Yes,70%,117347.76,14923.24,15%,61%,11%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1945,11.28,9.98,94,Yes,72%,19411.1,2528.5,5%,86%,12%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,735,18.49,15.89,113,No,70%,11679.15,1911,15%,39%,14%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Pending,1865,30.29,26.83,56,Yes,11%,50037.95,6452.9,3%,98%,11%
+Vendor_02,Beta_Supplies,2023,Electronics,Cancelled,675,13.69,11.84,52,Yes,9%,7992,1248.75,8%,76%,14%
+Vendor_05,Gamma_Co,2023,MRO,Pending,1361,28.57,24.29,65,Yes,11%,33058.69,5825.08,5%,86%,15%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,903,66.53,60.15,29,Yes,72%,54315.45,5761.14,3%,86%,10%
+Vendor_04,Epsilon_Group,2023,Packaging,Cancelled,1736,53.2,50.68,48,Yes,8%,87980.48,4374.72,3%,98%,5%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1011,98.47,97.06,91,Yes,71%,98127.66,1425.51,9%,76%,1%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,1712,88.17,85.86,246,Yes,70%,146992.32,3954.72,14%,61%,3%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,204,40.76,37.46,10,Yes,72%,7641.84,673.2,5%,86%,8%
+Vendor_02,Beta_Supplies,2022,Electronics,Partially Delivered,539,33.85,30.57,34,No,8%,16477.23,1767.92,6%,24%,10%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1459,45.94,42.56,212,No,70%,62095.04,4931.42,15%,39%,7%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,834,65.02,56.19,55,Yes,72%,46862.46,7364.22,7%,86%,14%
+Vendor_05,Gamma_Co,2023,Packaging,Partially Delivered,1177,37.37,34.27,60,Yes,13%,40335.79,3648.7,5%,86%,8%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1466,68.82,66.82,211,Yes,70%,97958.12,2932,14%,61%,3%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1884,47.08,44.31,54,Yes,72%,83480.04,5218.68,3%,98%,6%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,295,60.58,57.32,31,Yes,71%,16909.4,961.7,11%,76%,5%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1249,54.18,47.29,59,Yes,72%,59065.21,8605.61,5%,86%,13%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1112,39.06,33.6,184,No,70%,37363.2,6071.52,17%,39%,14%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,1550,100.61,97.43,66,Yes,72%,151016.5,4929,4%,86%,3%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,1755,82.66,73.67,258,No,70%,129290.85,15777.45,15%,39%,11%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,808,24.19,21.64,39,Yes,72%,17485.12,2060.4,5%,86%,11%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Partially Delivered,587,96.98,95.35,14,Yes,7%,55970.45,956.81,2%,94%,2%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1940,58.45,50.29,54,Yes,72%,97562.6,15830.4,3%,98%,14%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Cancelled,1891,91.87,80.28,158,Yes,9%,151809.48,21916.69,8%,76%,13%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,970,86.91,78.44,18,Yes,72%,76086.8,8215.9,2%,98%,10%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,457,52.85,50.34,16,Yes,72%,23005.38,1147.07,4%,98%,5%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Cancelled,574,12.38,11.47,105,No,9%,6583.78,522.34,18%,24%,7%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,877,35.55,34.69,24,Yes,72%,30423.13,754.22,3%,98%,2%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1579,59.04,50.95,29,Yes,76%,80450.05,12774.11,2%,94%,14%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,952,74.72,69.73,155,Yes,70%,66382.96,4750.48,16%,61%,7%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Pending,1898,35.53,33.25,187,Yes,12%,63108.5,4327.44,10%,76%,6%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,85,22.54,20.68,6,Yes,70%,1757.8,158.1,7%,61%,8%
+Vendor_05,Gamma_Co,2023,Packaging,Pending,734,92.38,78.92,34,No,11%,57927.28,9879.64,5%,14%,15%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,69,107.47,105.53,24,Yes,76%,7281.57,133.86,35%,94%,2%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,370,63.9,55.79,59,Yes,70%,20642.3,3000.7,16%,61%,13%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1849,28.25,27.53,271,Yes,70%,50902.97,1331.28,15%,61%,3%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,561,35.54,30.99,68,No,71%,17385.39,2552.55,12%,24%,13%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,449,12.35,10.67,29,Yes,72%,4790.83,754.32,6%,86%,14%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,703,98.75,86.78,59,Yes,71%,61006.34,8414.91,8%,76%,12%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1021,20.8,18.23,37,Yes,72%,18612.83,2623.97,4%,86%,12%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1956,68.69,65.09,105,Yes,71%,127316.04,7041.6,5%,76%,5%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Partially Delivered,520,36.57,34.78,67,No,11%,18085.6,930.8,13%,39%,5%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1216,66.16,63,179,No,70%,76608,3842.56,15%,39%,5%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,1165,72.06,63.93,24,Yes,76%,74478.45,9471.45,2%,94%,11%
+Vendor_03,Delta_Logistics,2023,Packaging,Pending,1427,93.99,83.6,213,Yes,10%,119297.2,14826.53,15%,61%,11%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,883,29.15,25.75,14,Yes,72%,22737.25,3002.2,2%,98%,12%
+Vendor_03,Delta_Logistics,2022,Packaging,Partially Delivered,1873,11.54,9.89,284,No,11%,18523.97,3090.45,15%,39%,14%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,776,24.22,22.53,27,Yes,72%,17483.28,1311.44,3%,98%,7%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,903,95.55,92.45,149,No,70%,83482.35,2799.3,17%,39%,3%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,100,98.4,85.76,3,Yes,72%,8576,1264,3%,98%,13%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1738,67.91,61.15,33,Yes,72%,106278.7,11748.88,2%,98%,10%
+Vendor_03,Delta_Logistics,2022,Packaging,Delivered,1771,67.57,61.48,280,No,70%,108881.08,10785.39,16%,39%,9%
+Vendor_04,Epsilon_Group,2023,Electronics,Delivered,624,74.39,66.3,18,No,72%,41371.2,5048.16,3%,2%,11%
+Vendor_01,Alpha_Inc,2023,Packaging,Partially Delivered,1263,28.75,27.1,26,Yes,7%,34227.3,2083.95,2%,94%,6%
+Vendor_05,Gamma_Co,2022,Electronics,Cancelled,1198,96.45,90.09,55,Yes,4%,107927.82,7619.28,5%,86%,7%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,199,51.98,45.64,33,No,72%,9082.36,1261.66,17%,2%,12%
+Vendor_04,Epsilon_Group,2022,MRO,Pending,363,45.37,38.73,33,Yes,11%,14058.99,2410.32,9%,98%,15%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,619,58.4,51.04,24,Yes,76%,31593.76,4555.84,4%,94%,13%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1415,15.22,13.56,30,Yes,76%,19187.4,2348.9,2%,94%,11%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,354,27.71,23.87,39,No,71%,8449.98,1359.36,11%,24%,14%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,1765,81.01,78.43,78,Yes,72%,138428.95,4553.7,4%,86%,3%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,731,19.37,17.3,69,No,71%,12646.3,1513.17,9%,24%,11%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,887,65.89,59.67,29,Yes,72%,52927.29,5517.14,3%,98%,9%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1856,35.29,32.41,26,Yes,76%,60152.96,5345.28,1%,94%,8%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1127,49.32,46.49,30,Yes,72%,52394.23,3189.41,3%,98%,6%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1052,37.78,32.6,162,Yes,70%,34295.2,5449.36,15%,61%,14%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,493,44.74,41.44,24,No,72%,20429.92,1626.9,5%,14%,7%
+Vendor_03,Delta_Logistics,2023,MRO,Partially Delivered,662,81.44,71.33,87,Yes,11%,47220.46,6692.82,13%,61%,12%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,1042,36.74,35.78,33,Yes,76%,37282.76,1000.32,3%,94%,3%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,313,64.03,57.74,1,Yes,76%,18072.62,1968.77,0%,94%,10%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1126,55.22,50.38,24,Yes,76%,56727.88,5449.84,2%,94%,9%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1645,72.17,64,79,Yes,72%,105280,13439.65,5%,86%,11%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1053,100.92,92.35,104,Yes,71%,97244.55,9024.21,10%,76%,8%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1693,83.14,73.3,62,Yes,72%,124096.9,16659.12,4%,98%,12%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Pending,54,32.28,28.65,3,Yes,11%,1547.1,196.02,6%,98%,11%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1176,14.22,12.21,33,Yes,72%,14358.96,2363.76,3%,98%,14%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,1269,35.28,33.7,35,Yes,72%,42765.3,2005.02,3%,98%,4%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,823,68.32,64.46,19,Yes,72%,53050.58,3176.78,2%,98%,6%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,926,15.65,13.49,94,No,71%,12491.74,2000.16,10%,24%,14%
+Vendor_03,Delta_Logistics,2023,Electronics,Cancelled,1041,58.5,52.54,170,No,9%,54694.14,6204.36,16%,39%,10%
+Vendor_05,Gamma_Co,2023,Electronics,Pending,933,70.72,65.47,42,Yes,11%,61083.51,4898.25,5%,86%,7%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1423,41.48,40.9,199,Yes,70%,58200.7,825.34,14%,61%,1%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,96,86.13,80.32,12,No,70%,7710.72,557.76,13%,39%,7%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,916,21.06,19.53,25,Yes,72%,17889.48,1401.48,3%,98%,7%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,872,17.18,16.63,20,Yes,72%,14501.36,479.6,2%,98%,3%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,985,83.85,80.88,105,No,71%,79666.8,2925.45,11%,24%,4%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,1893,55.14,50.1,98,Yes,72%,94839.3,9540.72,5%,86%,9%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,705,75.19,69.55,19,Yes,76%,49032.75,3976.2,3%,94%,8%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,318,53.31,51.78,155,No,70%,16466.04,486.54,49%,39%,3%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Pending,419,35.72,32.74,7,Yes,8%,13718.06,1248.62,2%,94%,8%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,685,92.51,90.05,38,Yes,72%,61684.25,1685.1,6%,86%,3%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Partially Delivered,1179,90.14,82.63,194,Yes,11%,97420.77,8854.29,16%,61%,8%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Delivered,1743,76.51,65.88,40,Yes,76%,114828.84,18528.09,2%,94%,14%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1732,35.01,34.18,40,Yes,76%,59199.76,1437.56,2%,94%,2%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,706,65.33,62.06,60,No,71%,43814.36,2308.62,8%,24%,5%
+Vendor_05,Gamma_Co,2023,MRO,Cancelled,169,47.16,43.4,55,Yes,4%,7334.6,635.44,33%,86%,8%
+Vendor_05,Gamma_Co,2022,Office Supplies,Pending,880,19.15,18.69,55,No,11%,16447.2,404.8,6%,14%,2%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1860,95.8,92.17,105,No,72%,171436.2,6751.8,6%,14%,4%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,1677,22.98,21.71,246,Yes,70%,36407.67,2129.79,15%,61%,6%
+Vendor_02,Beta_Supplies,2022,Packaging,Partially Delivered,1131,97.43,91.28,103,Yes,8%,103237.68,6955.65,9%,76%,6%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Cancelled,1419,50.14,43.46,33,Yes,8%,61669.74,9478.92,2%,98%,13%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Pending,790,26.8,25.62,115,Yes,10%,20239.8,932.2,15%,61%,4%
+Vendor_05,Gamma_Co,2022,MRO,Pending,1547,61.12,53.43,77,Yes,11%,82656.21,11896.43,5%,86%,13%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Cancelled,166,95.65,94.48,23,Yes,9%,15683.68,194.22,14%,61%,1%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1903,83.49,82.33,43,Yes,76%,156673.99,2207.48,2%,94%,1%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Partially Delivered,840,83.42,80.35,153,Yes,11%,67494,2578.8,18%,61%,4%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1200,74.49,64.63,161,Yes,70%,77556,11832,13%,61%,13%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1466,77.37,70.35,72,Yes,72%,103133.1,10291.32,5%,86%,9%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1981,95.5,94.39,49,Yes,76%,186986.59,2198.91,2%,94%,1%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,1062,35.55,32.38,55,Yes,72%,34387.56,3366.54,5%,86%,9%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1714,55.67,55.09,42,Yes,76%,94424.26,994.12,2%,94%,1%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,1131,33.35,31.28,23,Yes,76%,35377.68,2341.17,2%,94%,6%
+Vendor_01,Alpha_Inc,2023,Office Supplies,Delivered,683,104.82,101.34,24,Yes,76%,69215.22,2376.84,4%,94%,3%
+Vendor_05,Gamma_Co,2023,Packaging,Partially Delivered,562,102.56,90.88,38,Yes,13%,51074.56,6564.16,7%,86%,11%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1824,14.43,14.11,36,Yes,76%,25736.64,583.68,2%,94%,2%
+Vendor_02,Beta_Supplies,2022,Electronics,Partially Delivered,851,76.44,74.76,91,Yes,8%,63620.76,1429.68,11%,76%,2%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1169,95.6,82.16,103,Yes,71%,96045.04,15711.36,9%,76%,14%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1711,29.14,26.35,48,Yes,72%,45084.85,4773.69,3%,98%,10%
+Vendor_02,Beta_Supplies,2023,Packaging,Pending,1191,68.14,61.71,112,Yes,12%,73496.61,7658.13,9%,76%,9%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,609,92.39,82.75,29,Yes,72%,50394.75,5870.76,5%,98%,10%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Delivered,1674,13.25,11.77,181,Yes,71%,19702.98,2477.52,11%,76%,11%
+Vendor_05,Gamma_Co,2023,MRO,Delivered,537,77.86,71.18,20,Yes,72%,38223.66,3587.16,4%,86%,9%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1310,38.05,37,45,Yes,72%,48470,1375.5,3%,98%,3%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Delivered,1958,95.53,91.72,308,Yes,70%,179587.76,7459.98,16%,61%,4%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,946,108.6,101.78,146,Yes,70%,96283.88,6451.72,15%,61%,6%
+Vendor_02,Beta_Supplies,2023,Packaging,Partially Delivered,1345,103.06,95.14,105,Yes,8%,127963.3,10652.4,8%,76%,8%
+Vendor_03,Delta_Logistics,2023,MRO,Delivered,1262,56.63,51.46,155,No,70%,64942.52,6524.54,12%,39%,9%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,753,88.02,79.92,75,Yes,12%,60179.76,6099.3,10%,76%,9%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1520,93.75,81.63,149,Yes,71%,124077.6,18422.4,10%,76%,13%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,630,40.27,37.54,76,Yes,70%,23650.2,1719.9,12%,61%,7%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,839,86.29,82.51,110,Yes,70%,69225.89,3171.42,13%,61%,4%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,910,14.33,14.07,27,Yes,76%,12803.7,236.6,3%,94%,2%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Delivered,296,64.94,63.61,33,Yes,72%,18828.56,393.68,11%,98%,2%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1149,33,30.65,141,Yes,71%,35216.85,2700.15,12%,76%,7%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,203,23.14,20,155,No,70%,4060,637.42,76%,39%,14%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,1729,18.36,16.34,47,Yes,72%,28251.86,3492.58,3%,98%,11%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,1508,79.21,73.27,226,Yes,70%,110491.16,8957.52,15%,61%,7%
+Vendor_03,Delta_Logistics,2023,Packaging,Partially Delivered,1046,44.65,40.1,165,No,11%,41944.6,4759.3,16%,39%,10%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,1159,78.99,71.69,14,Yes,76%,83088.71,8460.7,1%,94%,9%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,746,16.99,15.35,69,No,71%,11451.1,1223.44,9%,24%,10%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1358,42.21,38.75,128,Yes,71%,52622.5,4698.68,9%,76%,8%
+Vendor_05,Gamma_Co,2023,Office Supplies,Delivered,1293,63.53,59.42,79,Yes,72%,76830.06,5314.23,6%,86%,6%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1142,86.85,74.28,30,Yes,76%,84827.76,14354.94,3%,94%,14%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1120,42.17,37.47,33,Yes,72%,41966.4,5264,3%,98%,11%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,1058,71.3,62.04,24,Yes,76%,65638.32,9797.08,2%,94%,13%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,143,91.98,86.02,5,Yes,72%,12300.86,852.28,3%,98%,6%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1823,70.66,66.92,202,Yes,71%,121995.16,6818.02,11%,76%,5%
+Vendor_05,Gamma_Co,2023,Office Supplies,Delivered,1007,33.29,28.48,49,Yes,72%,28679.36,4843.67,5%,86%,14%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1061,12.68,12.36,56,No,72%,13113.96,339.52,5%,14%,3%
+Vendor_02,Beta_Supplies,2022,MRO,Pending,502,91.84,82.33,105,Yes,12%,41329.66,4774.02,21%,76%,10%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1277,13.17,11.63,199,No,70%,14851.51,1966.58,16%,39%,12%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,961,92.72,88.49,22,Yes,76%,85038.89,4065.03,2%,94%,5%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,267,62.5,61.18,17,Yes,72%,16335.06,352.44,6%,86%,2%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Cancelled,523,102.08,99.59,155,Yes,9%,52085.57,1302.27,30%,61%,2%
+Vendor_04,Epsilon_Group,2023,Electronics,Pending,481,90.49,77.17,33,Yes,11%,37118.77,6406.92,7%,98%,15%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,390,103.81,100.12,20,Yes,72%,39046.8,1439.1,5%,86%,4%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,600,43.43,38.76,22,Yes,72%,23256,2802,4%,98%,11%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Delivered,1685,84.58,75.21,253,No,70%,126728.85,15788.45,15%,39%,11%
+Vendor_04,Epsilon_Group,2022,Packaging,Cancelled,1362,46.64,42.85,33,Yes,8%,58361.7,5161.98,2%,98%,8%
+Vendor_03,Delta_Logistics,2024,Electronics,Pending,1327,59.57,56.44,169,Yes,10%,74895.88,4153.51,13%,61%,5%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1807,69.47,60,50,Yes,72%,108420,17112.29,3%,98%,14%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Pending,406,91.73,89.13,24,Yes,8%,36186.78,1055.6,6%,94%,3%
+Vendor_05,Gamma_Co,2022,Raw Materials,Partially Delivered,72,103,89.49,1,No,13%,6443.28,972.72,1%,14%,13%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,1835,83.5,82.36,85,No,72%,151130.6,2091.9,5%,14%,1%
+Vendor_03,Delta_Logistics,2022,Electronics,Pending,571,49.98,45.58,155,No,10%,26026.18,2512.4,27%,39%,9%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1831,52.24,50.44,60,Yes,72%,92355.64,3295.8,3%,98%,3%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,1910,77.15,68.49,170,Yes,12%,130815.9,16540.6,9%,76%,11%
+Vendor_05,Gamma_Co,2022,Electronics,Partially Delivered,1173,32.12,29.18,55,Yes,13%,34228.14,3448.62,5%,86%,9%
+Vendor_04,Epsilon_Group,2022,Packaging,Partially Delivered,851,20.44,19.22,22,Yes,8%,16356.22,1038.22,3%,98%,6%
+Vendor_04,Epsilon_Group,2022,MRO,Cancelled,1253,43.38,38.01,34,Yes,8%,47626.53,6728.61,3%,98%,12%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1296,38,33.42,33,Yes,76%,43312.32,5935.68,3%,94%,12%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1979,40.88,39.46,221,Yes,71%,78091.34,2810.18,11%,76%,3%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,811,31.8,30.33,58,Yes,72%,24597.63,1192.17,7%,86%,5%
+Vendor_01,Alpha_Inc,2023,Electronics,Delivered,1732,15.37,14.7,38,Yes,76%,25460.4,1160.44,2%,94%,4%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,491,12.01,11.67,47,Yes,71%,5729.97,166.94,10%,76%,3%
+Vendor_05,Gamma_Co,2022,Packaging,Cancelled,1681,99.88,96.38,90,Yes,4%,162014.78,5883.5,5%,86%,4%
+Vendor_01,Alpha_Inc,2023,Raw Materials,Partially Delivered,818,51.89,47.85,12,Yes,7%,39141.3,3304.72,1%,94%,8%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1065,47.49,41.42,113,Yes,71%,44112.3,6464.55,11%,76%,13%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1398,75.08,67.09,57,Yes,72%,93791.82,11170.02,4%,86%,11%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,565,32.31,29.76,60,Yes,71%,16814.4,1440.75,11%,76%,8%
+Vendor_04,Epsilon_Group,2023,Packaging,Pending,1089,102.66,89.21,33,Yes,11%,97149.69,14647.05,3%,98%,13%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,841,86.43,83.77,125,No,70%,70450.57,2237.06,15%,39%,3%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,385,18.23,17.74,155,Yes,70%,6829.9,188.65,40%,61%,3%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1832,49.01,41.86,52,Yes,72%,76687.52,13098.8,3%,98%,15%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,307,95.36,83.63,29,Yes,71%,25674.41,3601.11,9%,76%,12%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,546,101.2,97.82,21,Yes,72%,53409.72,1845.48,4%,98%,3%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,945,57.01,55.14,147,No,70%,52107.3,1767.15,16%,39%,3%
+Vendor_03,Delta_Logistics,2023,MRO,Pending,209,72.71,64.34,39,Yes,10%,13447.06,1749.33,19%,61%,12%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,1548,25.03,22.87,105,Yes,71%,35402.76,3343.68,7%,76%,9%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,901,108.63,106.3,141,Yes,70%,95776.3,2099.33,16%,61%,2%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1737,32.7,31.02,48,Yes,72%,53881.74,2918.16,3%,98%,5%
+Vendor_02,Beta_Supplies,2023,Raw Materials,Delivered,1981,102.43,90.99,204,Yes,71%,180251.19,22662.64,10%,76%,11%
+Vendor_04,Epsilon_Group,2022,MRO,Pending,739,68.47,66.09,19,Yes,11%,48840.51,1758.82,3%,98%,3%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1748,68.25,62.84,171,Yes,71%,109844.32,9456.68,10%,76%,8%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Cancelled,429,58.95,55.35,59,No,9%,23745.15,1544.4,14%,39%,6%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,1618,32.76,28.41,62,Yes,72%,45967.38,7038.3,4%,86%,13%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,1006,27.7,23.66,101,No,71%,23801.96,4064.24,10%,24%,15%
+Vendor_02,Beta_Supplies,2023,Electronics,Partially Delivered,740,32.53,29.35,84,Yes,8%,21719,2353.2,11%,76%,10%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,1500,29.19,27.24,72,Yes,72%,40860,2925,5%,86%,7%
+Vendor_03,Delta_Logistics,2023,Office Supplies,Cancelled,1686,88.18,77.15,155,Yes,9%,130074.9,18596.58,9%,61%,13%
+Vendor_04,Epsilon_Group,2022,Raw Materials,Cancelled,1341,42.96,41.75,39,Yes,8%,55986.75,1622.61,3%,98%,3%
+Vendor_01,Alpha_Inc,2023,MRO,Cancelled,1908,16.42,15.31,36,Yes,9%,29211.48,2117.88,2%,94%,7%
+Vendor_05,Gamma_Co,2022,MRO,Partially Delivered,1650,100.62,90.45,85,Yes,13%,149242.5,16780.5,5%,86%,10%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,1490,93.57,81.68,29,Yes,76%,121703.2,17716.1,2%,94%,13%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1241,100.04,97.56,187,Yes,70%,121071.96,3077.68,15%,61%,2%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1915,107.51,102.66,184,Yes,71%,196593.9,9287.75,10%,76%,5%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1116,25.65,24.28,121,Yes,71%,27096.48,1528.92,11%,76%,5%
+Vendor_03,Delta_Logistics,2023,Raw Materials,Delivered,1629,48.63,43.28,260,Yes,70%,70503.12,8715.15,16%,61%,11%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,334,82.54,74.63,33,Yes,72%,24926.42,2641.94,10%,98%,10%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,446,80.63,70.37,33,Yes,72%,31385.02,4575.96,7%,98%,13%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,61,26.47,24.62,6,Yes,70%,1501.82,112.85,10%,61%,7%
+Vendor_03,Delta_Logistics,2023,Packaging,Delivered,1680,88.85,87.53,155,Yes,70%,147050.4,2217.6,9%,61%,1%
+Vendor_03,Delta_Logistics,2022,Electronics,Delivered,1375,30.95,30.02,223,Yes,70%,41277.5,1278.75,16%,61%,3%
+Vendor_03,Delta_Logistics,2023,Electronics,Partially Delivered,1971,32.4,30.48,321,Yes,11%,60076.08,3784.32,16%,61%,6%
+Vendor_03,Delta_Logistics,2022,Raw Materials,Pending,1326,59.49,56.21,155,Yes,10%,74534.46,4349.28,12%,61%,6%
+Vendor_03,Delta_Logistics,2023,MRO,Cancelled,548,69.7,61.87,90,Yes,9%,33904.76,4290.84,16%,61%,11%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,803,67.81,61.53,78,Yes,71%,49408.59,5042.84,10%,76%,9%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,84,18.23,15.55,0,Yes,76%,1306.2,225.12,0%,94%,15%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,776,94.75,90.89,19,Yes,72%,70530.64,2995.36,2%,98%,4%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,898,37.12,35.54,18,No,76%,31914.92,1418.84,2%,6%,4%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Cancelled,139,23.71,20.18,14,Yes,9%,2805.02,490.67,10%,76%,15%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,825,99.89,97.65,30,Yes,72%,80561.25,1848,4%,86%,2%
+Vendor_01,Alpha_Inc,2022,MRO,Delivered,654,96.01,90.31,10,Yes,76%,59062.74,3727.8,2%,94%,6%
+Vendor_05,Gamma_Co,2022,MRO,Delivered,1995,88.47,82.65,87,No,72%,164886.75,11610.9,4%,14%,7%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1019,91.56,77.93,111,No,71%,79410.67,13888.97,11%,24%,15%
+Vendor_04,Epsilon_Group,2023,Packaging,Pending,1675,73.8,65.34,42,Yes,11%,109444.5,14170.5,3%,98%,11%
+Vendor_05,Gamma_Co,2022,Raw Materials,Pending,1071,60.77,58.5,55,Yes,11%,62653.5,2431.17,5%,86%,4%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,467,19.17,17.11,49,Yes,71%,7990.37,962.02,10%,76%,11%
+Vendor_03,Delta_Logistics,2022,MRO,Pending,164,48.16,47.46,27,Yes,10%,7783.44,114.8,16%,61%,1%
+Vendor_04,Epsilon_Group,2022,Electronics,Cancelled,666,43.76,41.13,18,Yes,8%,27392.58,1751.58,3%,98%,6%
+Vendor_03,Delta_Logistics,2022,Packaging,Partially Delivered,1976,34.71,31.56,286,No,11%,62362.56,6224.4,14%,39%,9%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1269,79.61,71.86,47,Yes,72%,91190.34,9834.75,4%,98%,10%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,875,57.63,51.8,16,Yes,72%,45325,5101.25,2%,98%,10%
+Vendor_01,Alpha_Inc,2022,Packaging,Partially Delivered,1574,17.9,15.85,31,Yes,7%,24947.9,3226.7,2%,94%,11%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Partially Delivered,1699,32.05,29.34,69,Yes,8%,49848.66,4604.29,4%,98%,8%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1566,75.43,71.27,27,Yes,76%,111608.82,6514.56,2%,94%,6%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,1148,17.78,17.16,61,Yes,72%,19699.68,711.76,5%,86%,3%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,462,91.81,83.14,11,Yes,72%,38410.68,4005.54,2%,98%,9%
+Vendor_05,Gamma_Co,2022,Packaging,Delivered,1449,57.02,49.28,71,Yes,72%,71406.72,11215.26,5%,86%,14%
+Vendor_04,Epsilon_Group,2023,MRO,Delivered,1493,56.98,52.51,43,Yes,72%,78397.43,6673.71,3%,98%,8%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,778,65.85,62.08,24,No,76%,48298.24,2933.06,3%,6%,6%
+Vendor_03,Delta_Logistics,2022,Packaging,Partially Delivered,1350,85.06,82.34,155,No,11%,111159,3672,11%,39%,3%
+Vendor_04,Epsilon_Group,2023,Packaging,Delivered,1070,44.4,40.07,26,Yes,72%,42874.9,4633.1,2%,98%,10%
+Vendor_02,Beta_Supplies,2022,Packaging,Pending,810,71.02,66.8,73,Yes,12%,54108,3418.2,9%,76%,6%
+Vendor_03,Delta_Logistics,2023,Packaging,Cancelled,725,66.4,62.1,118,Yes,9%,45022.5,3117.5,16%,61%,6%
+Vendor_01,Alpha_Inc,2022,Electronics,Delivered,1467,34.2,30.5,25,Yes,76%,44743.5,5427.9,2%,94%,11%
+Vendor_02,Beta_Supplies,2022,Packaging,Delivered,1942,93.98,81.31,198,Yes,71%,157904.02,24605.14,10%,76%,13%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,506,84.63,72.69,20,Yes,72%,36781.14,6041.64,4%,86%,14%
+Vendor_01,Alpha_Inc,2023,MRO,Delivered,969,76.53,75.64,30,Yes,76%,73295.16,862.41,3%,94%,1%
+Vendor_03,Delta_Logistics,2022,MRO,Delivered,241,87.42,82.15,155,Yes,70%,19798.15,1270.07,64%,61%,6%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,788,97.3,94.44,32,Yes,72%,74418.72,2253.68,4%,86%,3%
+Vendor_05,Gamma_Co,2022,Office Supplies,Delivered,1762,74.12,65.71,94,Yes,72%,115781.02,14818.42,5%,86%,11%
+Vendor_01,Alpha_Inc,2022,Raw Materials,Pending,1172,85.76,81.43,25,Yes,8%,95435.96,5074.76,2%,94%,5%
+Vendor_03,Delta_Logistics,2022,Office Supplies,Delivered,1621,75.68,73.78,226,No,70%,119597.38,3079.9,14%,39%,3%
+Vendor_01,Alpha_Inc,2022,Packaging,Delivered,1027,73.35,65.42,24,No,76%,67186.34,8144.11,2%,6%,11%
+Vendor_02,Beta_Supplies,2022,Raw Materials,Delivered,1058,65.68,57.21,101,Yes,71%,60528.18,8961.26,10%,76%,13%
+Vendor_02,Beta_Supplies,2023,Packaging,Delivered,145,85.52,81.86,11,No,71%,11869.7,530.7,8%,24%,4%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1737,24.88,24.28,46,Yes,72%,42174.36,1042.2,3%,98%,2%
+Vendor_05,Gamma_Co,2022,Electronics,Delivered,712,92.85,89.39,43,Yes,72%,63645.68,2463.52,6%,86%,4%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1263,90.24,86.84,28,Yes,72%,109678.92,4294.2,2%,98%,4%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1809,13.58,12.68,155,No,70%,22938.12,1628.1,9%,39%,7%
+Vendor_02,Beta_Supplies,2023,Electronics,Cancelled,86,93.6,88.22,5,Yes,9%,7586.92,462.68,6%,76%,6%
+Vendor_04,Epsilon_Group,2022,MRO,Delivered,1853,21.92,20.72,33,Yes,72%,38394.16,2223.6,2%,98%,5%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,1442,43.98,41.82,140,No,71%,60304.44,3114.72,10%,24%,5%
+Vendor_02,Beta_Supplies,2022,Office Supplies,Pending,1768,79.61,74.97,207,No,12%,132546.96,8203.52,12%,24%,6%
+Vendor_02,Beta_Supplies,2023,Electronics,Partially Delivered,1598,26.3,26.03,154,No,8%,41595.94,431.46,10%,24%,1%
+Vendor_01,Alpha_Inc,2023,MRO,Cancelled,328,93.23,82.63,6,Yes,9%,27102.64,3476.8,2%,94%,11%
+Vendor_04,Epsilon_Group,2022,Packaging,Delivered,266,88.29,80.22,4,Yes,72%,21338.52,2146.62,2%,98%,9%
+Vendor_05,Gamma_Co,2023,Raw Materials,Delivered,916,59.01,53.37,47,Yes,72%,48886.92,5166.24,5%,86%,10%
+Vendor_04,Epsilon_Group,2022,Packaging,Cancelled,922,10.84,9.27,29,Yes,8%,8546.94,1447.54,3%,98%,14%
+Vendor_05,Gamma_Co,2023,Packaging,Delivered,1871,39.42,37.41,101,No,72%,69994.11,3760.71,5%,14%,5%
+Vendor_04,Epsilon_Group,2023,Raw Materials,Delivered,1346,72.08,67.04,38,Yes,72%,90235.84,6783.84,3%,98%,7%
+Vendor_04,Epsilon_Group,2022,Electronics,Delivered,1954,99.78,87.47,57,Yes,72%,170916.38,24053.74,3%,98%,12%
+Vendor_02,Beta_Supplies,2022,Electronics,Delivered,111,68.53,65.22,11,Yes,71%,7239.42,367.41,10%,76%,5%
+Vendor_05,Gamma_Co,2022,Office Supplies,Pending,645,35.05,30.88,27,Yes,11%,19917.6,2689.65,4%,86%,12%
+Vendor_05,Gamma_Co,2022,Electronics,Cancelled,1953,68.07,62.95,87,Yes,4%,122941.35,9999.36,4%,86%,8%
+Vendor_05,Gamma_Co,2023,Electronics,Delivered,778,64.17,61.6,47,Yes,72%,47924.8,1999.46,6%,86%,4%
+Vendor_04,Epsilon_Group,2022,Office Supplies,Delivered,1415,80.19,78.34,33,Yes,72%,110851.1,2617.75,2%,98%,2%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,446,20.61,19.46,14,Yes,72%,8679.16,512.9,3%,86%,6%
+Vendor_04,Epsilon_Group,2023,Office Supplies,Delivered,748,85.95,79.16,32,Yes,72%,59211.68,5078.92,4%,98%,8%
+Vendor_01,Alpha_Inc,2023,Electronics,Pending,1092,65.17,63.11,21,Yes,8%,68916.12,2249.52,2%,94%,3%
+Vendor_02,Beta_Supplies,2023,Electronics,Delivered,226,102.47,99.16,28,Yes,71%,22410.16,748.06,12%,76%,3%
+Vendor_03,Delta_Logistics,2023,Electronics,Delivered,1685,43.42,42.24,262,Yes,70%,71174.4,1988.3,16%,61%,3%
+Vendor_01,Alpha_Inc,2022,Office Supplies,Delivered,445,68.94,60.35,7,Yes,76%,26855.75,3822.55,2%,94%,12%
+Vendor_05,Gamma_Co,2022,Raw Materials,Delivered,494,94.82,81.89,29,Yes,72%,40453.66,6387.42,6%,86%,14%
+Vendor_02,Beta_Supplies,2023,MRO,Delivered,1306,21.05,18.27,128,Yes,71%,23860.62,3630.68,10%,76%,13%
+Vendor_02,Beta_Supplies,2023,Office Supplies,Delivered,1988,105.2,93.23,187,Yes,71%,185341.24,23796.36,9%,76%,11%
